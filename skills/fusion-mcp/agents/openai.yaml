@@ -1,0 +1,9 @@
+interface:
+  display_name: "Fusion MCP"
+  short_description: "Operate Autodesk Fusion safely through MCP"
+  default_prompt: "Use $fusion-mcp to inspect or modify the active Autodesk Fusion design through MCP and verify the result."
+dependencies:
+  toolos:
+    - type: "mcp"
+      value: "fusion_mcp"
+      description: "Autodesk Fusion MCP server"
